@@ -1,17 +1,22 @@
 body {
-    background: hotpink;
+    background: #DFDCCB;
+    width: calc(100vw - 0px);
+    color: #33312C;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+}
 
-    & aside {
-        display: flex;
-        /* flex-wrap: wrap; */
-        width: 100%;
-        background: gold;
-
-        & div {
-            background: red;
-            /* width: 100px;
-            height: 100px; */
-            /* border: 1px solid black; */
-        }
-    }
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color de la barra de desplazamiento */
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color de la barra de desplazamiento al pasar el cursor sobre ella */
 }

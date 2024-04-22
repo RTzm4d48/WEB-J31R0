@@ -6,14 +6,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="static/css/reset.css">
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/styles-index/molecules.css">
+    <link rel="stylesheet" href="static/css/styles-index/atoms.css">
+    <link rel="stylesheet" href="static/css/styles-index/organisms.css">
+    <link rel="stylesheet" href="static/css/styles-index/templates.css">
 </head>
-<body>
-    <aside id="cont_modules">
-    </aside>
-    <p>more</p>
-    <elon-musk item_label="HOLA LOL"></elon-musk>
-    
+
+<body id="id_body">
+    <elon-musk item_label="HOLA LOL" class="molecule_contModuleY"></elon-musk>
 </body>
 
 <script type="module" src="static/js/lit-element/element-index/modules.js"></script>
+
+<script>
+    // window.addEventListener('scroll', function() {
+    //     // Verificar si el usuario está desplazando
+
+    //     if (window.scrollY > 0) {
+    //         console.log('El scroll de la página está activo');
+    //     } else {
+    //         console.log('El scroll de la página está inactivo');
+    //     }
+    // });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Verificar si el usuario está desplazando
+        if (window.scrollY > 0) {
+            console.log('El scroll de la página está activo');
+        } else {
+            console.log('El scroll de la página está inactivo');
+        }
+    });
+</script>
 </html>

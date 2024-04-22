@@ -1,0 +1,22 @@
+.molecule_contModuleY {
+    /* background: greenyellow; */
+    /* overflow: hidden; */
+    margin: auto;
+
+    & aside {
+        /* background: pink; */
+        display: flex;
+        /* background: rgb(144, 33, 33); */
+        border-right: none; /* Elimina el borde en el lado derecho */
+        border-bottom: none;
+        border-right: 1px solid #33312c80;
+        /* background: yellow; */
+
+        .module_box {
+            border: 1px solid #33312c80;
+            border-right: none; /* Elimina el borde en el lado derecho */
+            border-bottom: none;
+            /* background: red; */
+        }
+    }
+}
