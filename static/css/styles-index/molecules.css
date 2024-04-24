@@ -16,7 +16,37 @@
             border: 1px solid #33312c80;
             border-right: none; /* Elimina el borde en el lado derecho */
             border-bottom: none;
+            position: relative; /*importante*/
             /* background: red; */
+
+            & nav {
+                color: red;
+                position: absolute;/*importante*/
+                margin: auto;background: yellow;
+                width: 200%;
+                height: 100%;
+                display: flex;
+
+                & p {
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+.molecule_navBar {
+    background: salmon;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    & section {
+        display: flex;
+
+        &span {
+            display: flex;
         }
     }
 }

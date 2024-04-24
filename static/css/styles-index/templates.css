@@ -1,0 +1,9 @@
+.template_contBody {
+    /* background: #ffffffb9; */
+    position: absolute;/*importante*/
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at center, transparent, #e5c989);
+    background-size: 200% 300%;
+    background-position: center;
+}

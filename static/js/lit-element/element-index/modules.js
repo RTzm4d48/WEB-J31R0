@@ -15,7 +15,15 @@ class Elon_Musk extends LitElement {
         this.newModule_Y_rounded = '';
         this.width_rounded = '';
     }
-
+    insert_inModule(id) {
+        if (id == '2_10') {
+            return `<nav>
+            <p>Kameliá</p>
+            </nav>`;
+        }else {
+            return '';
+        }
+    }
     write_column(y, x) {
         var html_aside = `<aside id="cont_modules">`;
 
@@ -36,6 +44,7 @@ class Elon_Musk extends LitElement {
 
         for (let i = 0; i <= x; i++) {
             html_aside = html_aside+`<div class="module_box" style="width: ${width}px; height: ${width}px" id="${y}_${i}">
+                ${this.insert_inModule(y+'_'+i)}
                 <div class="atom_modulesPoint">
                     <span>
                         <div><section></section></div>
@@ -92,7 +101,6 @@ class Elon_Musk extends LitElement {
         }
         var modules_complementesDOM = this.renderHTML(modules_complementes);
         var modules_complementesDOM2 = this.renderHTML(modules_complementes);
-
 
         return html`
             ${modules_complementesDOM}
