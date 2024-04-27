@@ -1,4 +1,5 @@
 import { LitElement, css, html } from '/static/js/lit-element/lit.js';
+import { screen_modules_size } from '/static/js/screen_size.js';
 
 class Elon_Musk extends LitElement {
     static get properties(){
@@ -12,8 +13,6 @@ class Elon_Musk extends LitElement {
     constructor(){
         super();
         this.item_label = '';
-        this.newModule_Y_rounded = '';
-        this.width_rounded = '';
     }
     insert_inModule(id) {
         if (id == '2_10') {
@@ -27,20 +26,7 @@ class Elon_Musk extends LitElement {
     write_column(y, x) {
         var html_aside = `<aside id="cont_modules">`;
 
-        var wind_wid = window.innerWidth;
-        var wind_hei = window.innerHeight;
-
-        var width_module = (wind_wid / 21);
-        var height_module = (wind_hei);
-
-        this.width_rounded = width_module.toFixed(0);
-        var height_rounded = height_module.toFixed(0);
-
-        var newModule_Y = ((height_rounded - (this.width_rounded * 10)) / this.width_rounded) / 2;
-        this.newModule_Y_rounded = newModule_Y.toFixed(0);
-
-        console.log(this.newModule_Y_rounded);
-        var width = this.width_rounded > 95 ? 95 : this.width_rounded;
+        var width = screen_modules_size()[1];
 
         for (let i = 0; i <= x; i++) {
             html_aside = html_aside+`<div class="module_box" style="width: ${width}px; height: ${width}px" id="${y}_${i}">
@@ -70,7 +56,9 @@ class Elon_Musk extends LitElement {
     NEW_MODULES_Y(y, x) {
         if (x > y) {
             var html_aside = `<aside>`;
-            var width = this.width_rounded > 95 ? 95 : this.width_rounded;
+
+            var width = screen_modules_size()[1];
+
             for (let i = 0; i <= x; i++) {
                 html_aside = html_aside+`<div class="module_box" style="background: salmon; width: ${width}px; height: ${width}px">
                 [${width}]
@@ -96,7 +84,8 @@ class Elon_Musk extends LitElement {
         var modulesDOM = this.renderHTML(modules);
         
         var modules_complementes = '';
-        for (let i = 0; i < this.newModule_Y_rounded; i++) {
+        var newModule_Y_rounded = screen_modules_size()[0];
+        for (let i = 0; i < newModule_Y_rounded; i++) {
             modules_complementes = modules_complementes != '' ? modules_complementes+this.NEW_MODULES_Y(i, 21): this.NEW_MODULES_Y(i, 21);
         }
         var modules_complementesDOM = this.renderHTML(modules_complementes);
