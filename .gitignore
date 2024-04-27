@@ -1,1 +1,16 @@
 process.txt
+
+# Carpeta node_modules generada por npm
+node_modules/
+
+# Archivo package-lock.json generado por npm
+package-lock.json
+
+# Carpeta dist generada por Webpack (donde se almacenan los archivos compilados)
+# /dist/
+
+# Carpeta .cache generada por Webpack (puede variar dependiendo de la versión)
+.cache/
+
+# Archivo bundle.js generado por Webpack (o cualquier otro archivo de salida)
+bundle.js
