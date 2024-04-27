@@ -1,3 +1,5 @@
+@import url(/static/css/style.css);
+
 .molecule_contModuleY {
     /* background: greenyellow; */
     /* overflow: hidden; */
@@ -22,10 +24,11 @@
             & nav {
                 color: red;
                 position: absolute;/*importante*/
-                margin: auto;background: yellow;
+                margin: auto;background: rgba(255, 255, 0, 0.315);
                 width: 200%;
                 height: 100%;
                 display: flex;
+                z-index: 4;
 
                 & p {
                     margin: auto;
@@ -47,6 +50,53 @@
 
         &span {
             display: flex;
+        }
+    }
+}
+
+.molecule_personaje {
+    width: 60%;
+    height: 70%;
+    /* background: blue; */
+    margin: auto;
+
+    .box {
+        width: 100%;
+        height: calc(50% - (100px / 2));
+        /* background: salmon; */
+        display: flex;
+        justify-content: space-between;
+        position: relative; /*importante*/
+
+        .leter {
+            /* background: #bd6e6e; */
+            display: flex;
+            height: 100%;
+            margin: 0px 60px;
+            z-index: 3;
+        }
+        
+        .line_leter {
+            background: var(--color-general_3);
+            position: absolute;/*importante*/
+            width: 100%;
+            height: 50px;
+            margin: auto;
+            top: calc(50% - 25px);
+
+        }
+    }
+    
+    .cent {
+        /* background: gold; */
+        height: 100px;
+        display: flex;
+
+        & P {
+            font-size: 50px;
+            color: var(--color-general_4);
+            margin: auto;
+            font-family: var(--font-roboto_blod);
         }
     }
 }

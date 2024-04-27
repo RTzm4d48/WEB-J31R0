@@ -20,3 +20,41 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #555; /* Color de la barra de desplazamiento al pasar el cursor sobre ella */
 }
+
+@font-face {
+    font-family: 'myfont_robot_bold';
+    src: url('/static/fonts/Roboto-Bold.ttf') format('truetype')
+    }
+    @font-face {
+    font-family: 'myfont_robot_normal';
+    src: url('/static/fonts/Roboto-Regular.ttf') format('truetype')
+    }
+    @font-face {
+    font-family: 'quicksand_light';
+    src: url('/static/fonts/Quicksand-Regular.ttf') format('truetype')
+    }
+    @font-face {
+    font-family: 'utendo_semibold';
+    src: url('/static/fonts/Utendo-Semibold.ttf') format('truetype')
+}
+
+:root{
+
+    /* COLORES */
+    --color-general_3: #F4C42A;
+    --color-general_4: #302D28;
+
+
+    /* ESTILOS DE FUENTES */
+    --font-roboto_blod: 'myfont_robot_bold';
+    --font-roboto_normal: 'myfont_robot_normal';
+    --font-quicksand_light: 'quicksand_light';
+    --font-utendo_semibold: 'utendo_semibold';
+
+    /* TAMAÑOS DE TEXTO */
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 20px;
+}
