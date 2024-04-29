@@ -17,7 +17,7 @@ class Elon_Musk extends LitElement {
     insert_inModule(id) {
         if (id == '2_10') {
             return `<nav>
-            <p>Kameliá</p>
+            <p>${id}</p>
             </nav>`;
         }else {
             return '';
@@ -61,7 +61,6 @@ class Elon_Musk extends LitElement {
 
             for (let i = 0; i <= x; i++) {
                 html_aside = html_aside+`<div class="module_box" style="background: salmon; width: ${width}px; height: ${width}px">
-                [${width}]
                 </div>`;
                 var thehtmla = i == x ? html_aside+"</aside>" : i;
             }

@@ -86,3 +86,28 @@ class Icon_ig extends BaseElement {
     }
 }
 customElements.define('icon-ig', Icon_ig);
+
+// icon-ig
+class Icon_linkedin extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg viewBox="0 0 72 72"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link"/><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet"/><g fill="none" fill-rule="evenodd"><path d="M36,72 L36,72 C55.882251,72 72,55.882251 72,36 L72,36 C72,16.117749 55.882251,-3.65231026e-15 36,0 L36,0 C16.117749,3.65231026e-15 -2.4348735e-15,16.117749 0,36 L0,36 C2.4348735e-15,55.882251 16.117749,72 36,72 Z" fill="#000"/><path d="M59,57 L49.959375,57 L49.959375,41.6017895 C49.959375,37.3800228 48.3552083,35.0207581 45.0136719,35.0207581 C41.3785156,35.0207581 39.4792969,37.4759395 39.4792969,41.6017895 L39.4792969,57 L30.7666667,57 L30.7666667,27.6666667 L39.4792969,27.6666667 L39.4792969,31.6178624 C39.4792969,31.6178624 42.0989583,26.7704897 48.3236979,26.7704897 C54.5455729,26.7704897 59,30.5699366 59,38.4279486 L59,57 Z M20.372526,23.8257036 C17.4048177,23.8257036 15,21.4020172 15,18.4128518 C15,15.4236864 17.4048177,13 20.372526,13 C23.3402344,13 25.7436198,15.4236864 25.7436198,18.4128518 C25.7436198,21.4020172 23.3402344,23.8257036 20.372526,23.8257036 Z M15.8736979,57 L24.958724,57 L24.958724,27.6666667 L15.8736979,27.6666667 L15.8736979,57 Z" fill="#FFF"/></g></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('icon-linkedin', Icon_linkedin);
+
+
+// Element-lines
+class element_lines extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 51 425"><defs><clipPath id="clip-path"><rect id="SVGID" width="51" height="425" style="fill:none"/></clipPath></defs><title>Sin títulddo-4</title><g style="clip-path:url(#clip-path)"><rect x="-70.56" y="-28.73" width="186.32" height="19.16" transform="translate(20.16 10.37) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="18.27" width="186.32" height="19.16" transform="translate(-13.07 24.14) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="65.27" width="186.32" height="19.16" transform="translate(-46.31 37.9) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="112.27" width="186.32" height="19.16" transform="translate(-79.54 51.67) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="159.27" width="186.32" height="19.16" transform="translate(-112.78 65.44) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="206.27" width="186.32" height="19.16" transform="translate(-146.01 79.2) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="253.27" width="186.32" height="19.16" transform="translate(-179.24 92.97) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="300.27" width="186.32" height="19.16" transform="translate(-212.48 106.73) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="347.27" width="186.32" height="19.16" transform="translate(-245.71 120.5) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="394.27" width="186.32" height="19.16" transform="translate(-278.95 134.27) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="441.27" width="186.32" height="19.16" transform="translate(-312.18 148.03) rotate(-45)" style="fill:#302d28"/></g></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('element-lines', element_lines);
