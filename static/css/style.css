@@ -61,7 +61,7 @@ body {
 }
 
 .style_glass{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.176)rgba(255, 255, 255, 0.144)0));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.176)rgba(255, 255, 255, 0.144));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;

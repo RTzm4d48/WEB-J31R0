@@ -6,26 +6,69 @@
     & aside {
         background: greenyellow;
         width: calc(100% - 5%);
-        height: calc(100% - 70px);
+        height: calc(100% - 100px);
         display: flex;
         margin: auto;
         
+        .linesLine {
+            flex-direction: column;
+        }
+
         & section {
-            background: rebeccapurple;
+            /* background: rebeccapurple; */
             width: 50px;
             height: 100%;
+            display: flex;
+            /* flex-direction: column; */
 
             @media (max-width: 580px) {
                 width: 0px;
                 background: none;
+                display: none;
+            }
+
+            & span {
+                width: 20px;
+                height: 100%;
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                width: 30px;
+
+                .etementRig {
+                    width: 100%;
+                    height: auto;
+                    /* background: red; */
+                    /* border-bottom: 5px solid red; */
+                    position: relative;
+                    /* top: 2px; */
+                }
+
+                .color {
+                    flex-grow: 2;
+                    background: var(--color-general_4);
+                    /* border-top: 5px solid green; */
+                }
+            }
+
+            .light {
+                background-image: url('/static/img/line_big.png'); /* reemplaza 'ruta/a/la/imagen.jpg' con la ruta de tu imagen */
+                background-repeat: repeat-y;
+                background-size: 100% 100%;
+                /* background: red; */
+                width: 20px;
+                height: 100%;
             }
         }
         & nav {
-            /* background: #337c99; */
+            background: #337c99;
             width: calc(100% - 100px);
             height: 100%;
             display: flex;
             margin: auto;
+            flex-direction: column;
 
             @media (max-width: 580px) {
                 width: calc(100% - 0px);
@@ -35,8 +78,35 @@
 
     & article {
         width: calc(100% - 5%);
-        background: rebeccapurple;
-        height: 50px;
+        /* background: rgb(157, 72, 242); */
+        height: 60px;
         margin: auto;
+        display: flex;
+
+        & section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            /* flex-direction: column; */
+
+            .botton {
+                height: 100%;
+                width: 100%;
+                /* background: green; */
+                
+
+                .etementRig {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .color {
+                        background: var(--color-general_4);
+                        flex-grow: 1;
+                    }
+                }
+            }
+        }
     }
 }
