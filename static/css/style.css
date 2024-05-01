@@ -23,20 +23,24 @@ body {
 }
 
 @font-face {
-    font-family: 'myfont_robot_bold';
-    src: url('/static/fonts/Roboto-Bold.ttf') format('truetype')
-    }
-    @font-face {
-    font-family: 'myfont_robot_normal';
-    src: url('/static/fonts/Roboto-Regular.ttf') format('truetype')
-    }
-    @font-face {
-    font-family: 'quicksand_light';
-    src: url('/static/fonts/Quicksand-Regular.ttf') format('truetype')
-    }
-    @font-face {
-    font-family: 'utendo_semibold';
-    src: url('/static/fonts/Utendo-Semibold.ttf') format('truetype')
+font-family: 'myfont_robot_bold';
+src: url('/static/fonts/Roboto-Bold.ttf') format('truetype')
+}
+@font-face {
+font-family: 'myfont_robot_normal';
+src: url('/static/fonts/Roboto-Regular.ttf') format('truetype')
+}
+@font-face {
+font-family: 'quicksand_light';
+src: url('/static/fonts/Quicksand-Regular.ttf') format('truetype')
+}
+@font-face {
+font-family: 'utendo_semibold';
+src: url('/static/fonts/Utendo-Semibold.ttf') format('truetype')
+}
+@font-face {
+font-family: 'code_latin';
+src: url('/static/fonts/MPLUSCodeLatin-Medium.ttf') format('truetype')
 }
 
 :root{
@@ -44,6 +48,7 @@ body {
     /* COLORES */
     --color-general_3: #F4C42A;
     --color-general_4: #302D28;
+    --color-general_4_opacity: #302d2855;
 
 
     /* ESTILOS DE FUENTES */
@@ -51,6 +56,7 @@ body {
     --font-roboto_normal: 'myfont_robot_normal';
     --font-quicksand_light: 'quicksand_light';
     --font-utendo_semibold: 'utendo_semibold';
+    --font-code_latin: 'code_latin';
 
     /* TAMAÑOS DE TEXTO */
     --font-xs: 12px;

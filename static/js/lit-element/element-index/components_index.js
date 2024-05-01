@@ -87,12 +87,19 @@ class Icon_ig extends BaseElement {
 }
 customElements.define('icon-ig', Icon_ig);
 
-// icon-ig
+// icon-linkedin
 class Icon_linkedin extends BaseElement {
   render() {
       return html`
         <span class="my_icon" style="height: ${this.item_size};">
-          <svg viewBox="0 0 72 72"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link"/><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet"/><g fill="none" fill-rule="evenodd"><path d="M36,72 L36,72 C55.882251,72 72,55.882251 72,36 L72,36 C72,16.117749 55.882251,-3.65231026e-15 36,0 L36,0 C16.117749,3.65231026e-15 -2.4348735e-15,16.117749 0,36 L0,36 C2.4348735e-15,55.882251 16.117749,72 36,72 Z" fill="#000"/><path d="M59,57 L49.959375,57 L49.959375,41.6017895 C49.959375,37.3800228 48.3552083,35.0207581 45.0136719,35.0207581 C41.3785156,35.0207581 39.4792969,37.4759395 39.4792969,41.6017895 L39.4792969,57 L30.7666667,57 L30.7666667,27.6666667 L39.4792969,27.6666667 L39.4792969,31.6178624 C39.4792969,31.6178624 42.0989583,26.7704897 48.3236979,26.7704897 C54.5455729,26.7704897 59,30.5699366 59,38.4279486 L59,57 Z M20.372526,23.8257036 C17.4048177,23.8257036 15,21.4020172 15,18.4128518 C15,15.4236864 17.4048177,13 20.372526,13 C23.3402344,13 25.7436198,15.4236864 25.7436198,18.4128518 C25.7436198,21.4020172 23.3402344,23.8257036 20.372526,23.8257036 Z M15.8736979,57 L24.958724,57 L24.958724,27.6666667 L15.8736979,27.6666667 L15.8736979,57 Z" fill="#FFF"/></g></svg>
+          <svg version="1.1" x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
+          <style type="text/css">
+            .st0{fill-rule:evenodd;clip-rule:evenodd;}
+          </style>
+          <g id="Capa_1">
+            <path class="st0" d="M36,72L36,72c19.9,0,36-16.1,36-36l0,0C72,16.1,55.9,0,36,0l0,0C16.1,0,0,16.1,0,36l0,0C0,55.9,16.1,72,36,72z    M59,57h-9V41.6c0-4.2-1.6-6.6-4.9-6.6c-3.6,0-5.5,2.5-5.5,6.6V57h-8.7V27.7h8.7v4c0,0,2.6-4.8,8.8-4.8c6.2,0,10.7,3.8,10.7,11.7   V57z M20.4,23.8c-3,0-5.4-2.4-5.4-5.4s2.4-5.4,5.4-5.4s5.4,2.4,5.4,5.4S23.3,23.8,20.4,23.8z M15.9,57H25V27.7h-9.1V57z"/>
+          </g>
+          </svg>
         </span>
       `;
     }
@@ -135,3 +142,27 @@ class element_jeirocolor extends BaseElement {
     }
 }
 customElements.define('element-jeirocolor', element_jeirocolor);
+
+// icon-play
+class icon_play extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg viewBox="0 0 321 322"><g id="Capa_8" data-name="Capa 8"><path d="M113.49,108.68V214.4a15.17,15.17,0,0,0,22.75,13.12L229,174a15.17,15.17,0,0,0,0-26.77L136.24,95.48a15.16,15.16,0,0,0-22.75,13.2Z" style="fill:#302d28"/><path d="M320.84,160.78A160.6,160.6,0,1,1,160.24.19,160.6,160.6,0,0,1,320.84,160.78Zm-160.6-137a137,137,0,1,0,137,137.13v-.09A137,137,0,0,0,160.24,23.74Z" style="fill:#302d28"/></g></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('icon-play', icon_play);
+
+// icon-volume
+class icon_volume extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg viewBox="0 0 322 321"><path d="M322,160.81A160.6,160.6,0,1,1,161.41.22,160.59,160.59,0,0,1,322,160.81Zm-160.59-137a137,137,0,1,0,137,137.13v-.09A137,137,0,0,0,161.41,23.77Z" style="fill:#302d28"/><path d="M188.59,210.8a9,9,0,0,0,12.24-1.15,76.39,76.39,0,0,0,0-101.51A9,9,0,0,0,188.59,107h0a9.06,9.06,0,0,0-1.24,13.23,58.3,58.3,0,0,1,0,77.36,9.06,9.06,0,0,0,1.24,13.23Z" style="fill:#302d28"/><path d="M112.2,127.72l48.2-35s4.78-3.47,8.63,0,8.34,10,8.34,20.44v94.71a16,16,0,0,1-5.34,14c-6.85,6.38-8.82,5.53-14.63,1.88s-46.23-30.39-46.23-30.39h-17s-18.29-.46-18.29-17.81V146.38s-.84-18.29,20-18.29Z" style="fill:#302d28"/><path d="M208.11,92.06a8.81,8.81,0,0,0-1.34,12.73A83,83,0,0,1,206.72,213a8.8,8.8,0,0,0,1.35,12.73l1,.8a8.83,8.83,0,0,0,12.06-1.28,101.94,101.94,0,0,0,0-132.69,8.81,8.81,0,0,0-12-1.26Z" style="fill:#302d28"/></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('icon-volume', icon_volume);

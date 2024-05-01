@@ -4,7 +4,7 @@
     width: 100%;
 
     & aside {
-        background: greenyellow;
+        /* background: greenyellow; */
         width: calc(100% - 5%);
         height: calc(100% - 100px);
         display: flex;
@@ -63,7 +63,7 @@
             }
         }
         & nav {
-            background: #337c99;
+            /* background: #337c99; */
             width: calc(100% - 100px);
             height: 100%;
             display: flex;
