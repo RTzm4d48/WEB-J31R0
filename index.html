@@ -6,11 +6,18 @@
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
     <link rel="stylesheet" href="static/css/reset.css">
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="stylesheet" href="static/css/styles-index/molecules.css">
-    <link rel="stylesheet" href="static/css/styles-index/atoms.css">
-    <link rel="stylesheet" href="static/css/styles-index/organisms.css">
-    <link rel="stylesheet" href="static/css/styles-index/templates.css">
+    <!-- DESARROLLO -->
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/atoms.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/molecules.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/organisms.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/templates.css"> -->
+    
+    <!-- PRODUCCIÓN -->
+    <script src="dist/styles_atoms.js"></script>
+    <script src="dist/styles_molecules.js"></script>
+    <script src="dist/styles_organisms.js"></script>
+    <script src="dist/styles_templates.js"></script>
 </head>
 
 <body id="id_body">
@@ -122,14 +129,14 @@
 </body>
 
 <!-- DESARROLLO -->
-<script type="module" src="static/js/lit-element/element-index/modules.js"></script>
+<!-- <script type="module" src="static/js/lit-element/element-index/modules.js"></script>
 <script type="module" src="static/js/lit-element/element-index/components_index.js"></script>
-<script type="module" src="static/js/responsive/responsive-index/responsive_index.js"></script>
+<script type="module" src="static/js/responsive/responsive-index/responsive_index.js"></script> -->
 
 <!-- PRODUCCIÓN -->
-<!-- <script type="module" src="dist/modules.js"></script>
+<script type="module" src="dist/modules.js"></script>
 <script type="module" src="dist/components_index.js"></script>
-<script type="module" src="dist/responsive_index.js"></script> -->
+<script type="module" src="dist/responsive_index.js"></script>
 
 <script>
     // window.addEventListener('scroll', function() {
