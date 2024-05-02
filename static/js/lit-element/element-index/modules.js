@@ -15,11 +15,29 @@ class Elon_Musk extends LitElement {
         this.item_label = '';
     }
     insert_inModule(id) {
-        if (id == '2_10') {
-            return `<nav>
-            <p>${id}</p>
+        if (id == '2_1') {
+            return `<nav style="background: none; color: black; width: 300%">
+            <p style="margin: 0px 10px auto 10px">2018</p>
+            <p style="margin: 0px 10px auto 10px"> Beginning of this
+            spectacular race
+            </p>
             </nav>`;
-        }else {
+        }else if (id == '3_1') {
+            return `<nav style="background: none; color: black; width: 300%">
+            <p style="margin: 0px 10px auto 10px">2023</p>
+            <p style="margin: 0px 10px auto 10px">This website has been
+            create
+            </p>
+            </nav>`;
+        }else if (id == '5_1') {
+            return `<nav style="background: none; color: black; width: 300%">
+            <p style="margin: 0px 10px auto 10px">2018</p>
+            <p style="margin: 0px 10px auto 10px">Currently programing and developing full backend
+            </p>
+            </nav>`;
+        }
+        
+        else {
             return '';
         }
     }

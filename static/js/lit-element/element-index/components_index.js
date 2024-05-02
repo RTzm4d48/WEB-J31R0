@@ -87,12 +87,19 @@ class Icon_ig extends BaseElement {
 }
 customElements.define('icon-ig', Icon_ig);
 
-// icon-ig
+// icon-linkedin
 class Icon_linkedin extends BaseElement {
   render() {
       return html`
         <span class="my_icon" style="height: ${this.item_size};">
-          <svg viewBox="0 0 72 72"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link"/><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet"/><g fill="none" fill-rule="evenodd"><path d="M36,72 L36,72 C55.882251,72 72,55.882251 72,36 L72,36 C72,16.117749 55.882251,-3.65231026e-15 36,0 L36,0 C16.117749,3.65231026e-15 -2.4348735e-15,16.117749 0,36 L0,36 C2.4348735e-15,55.882251 16.117749,72 36,72 Z" fill="#000"/><path d="M59,57 L49.959375,57 L49.959375,41.6017895 C49.959375,37.3800228 48.3552083,35.0207581 45.0136719,35.0207581 C41.3785156,35.0207581 39.4792969,37.4759395 39.4792969,41.6017895 L39.4792969,57 L30.7666667,57 L30.7666667,27.6666667 L39.4792969,27.6666667 L39.4792969,31.6178624 C39.4792969,31.6178624 42.0989583,26.7704897 48.3236979,26.7704897 C54.5455729,26.7704897 59,30.5699366 59,38.4279486 L59,57 Z M20.372526,23.8257036 C17.4048177,23.8257036 15,21.4020172 15,18.4128518 C15,15.4236864 17.4048177,13 20.372526,13 C23.3402344,13 25.7436198,15.4236864 25.7436198,18.4128518 C25.7436198,21.4020172 23.3402344,23.8257036 20.372526,23.8257036 Z M15.8736979,57 L24.958724,57 L24.958724,27.6666667 L15.8736979,27.6666667 L15.8736979,57 Z" fill="#FFF"/></g></svg>
+          <svg version="1.1" x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
+          <style type="text/css">
+            .st0{fill-rule:evenodd;clip-rule:evenodd;}
+          </style>
+          <g id="Capa_1">
+            <path class="st0" d="M36,72L36,72c19.9,0,36-16.1,36-36l0,0C72,16.1,55.9,0,36,0l0,0C16.1,0,0,16.1,0,36l0,0C0,55.9,16.1,72,36,72z    M59,57h-9V41.6c0-4.2-1.6-6.6-4.9-6.6c-3.6,0-5.5,2.5-5.5,6.6V57h-8.7V27.7h8.7v4c0,0,2.6-4.8,8.8-4.8c6.2,0,10.7,3.8,10.7,11.7   V57z M20.4,23.8c-3,0-5.4-2.4-5.4-5.4s2.4-5.4,5.4-5.4s5.4,2.4,5.4,5.4S23.3,23.8,20.4,23.8z M15.9,57H25V27.7h-9.1V57z"/>
+          </g>
+          </svg>
         </span>
       `;
     }
@@ -104,10 +111,58 @@ customElements.define('icon-linkedin', Icon_linkedin);
 class element_lines extends BaseElement {
   render() {
       return html`
-        <span class="my_icon" style="height: ${this.item_size};">
+        <span class="my_icon" style="width: ${this.item_size};">
           <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 51 425"><defs><clipPath id="clip-path"><rect id="SVGID" width="51" height="425" style="fill:none"/></clipPath></defs><title>Sin títulddo-4</title><g style="clip-path:url(#clip-path)"><rect x="-70.56" y="-28.73" width="186.32" height="19.16" transform="translate(20.16 10.37) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="18.27" width="186.32" height="19.16" transform="translate(-13.07 24.14) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="65.27" width="186.32" height="19.16" transform="translate(-46.31 37.9) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="112.27" width="186.32" height="19.16" transform="translate(-79.54 51.67) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="159.27" width="186.32" height="19.16" transform="translate(-112.78 65.44) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="206.27" width="186.32" height="19.16" transform="translate(-146.01 79.2) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="253.27" width="186.32" height="19.16" transform="translate(-179.24 92.97) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="300.27" width="186.32" height="19.16" transform="translate(-212.48 106.73) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="347.27" width="186.32" height="19.16" transform="translate(-245.71 120.5) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="394.27" width="186.32" height="19.16" transform="translate(-278.95 134.27) rotate(-45)" style="fill:#302d28"/><rect x="-70.56" y="441.27" width="186.32" height="19.16" transform="translate(-312.18 148.03) rotate(-45)" style="fill:#302d28"/></g></svg>
         </span>
       `;
     }
 }
 customElements.define('element-lines', element_lines);
+
+// Element-arrows
+class element_arrows extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="width: ${this.item_size};">
+          <svg id="Capa_1" viewBox="0 0 65.41 158.7"><title>Sin título-5</title><path d="M65.73,163H.32V.3H65.73ZM11,30.66V52.53l21.8,18.66,21.8-18.66V30.66L32.79,49.39Zm0,28.81V81.34L32.76,100l21.8-18.65V59.47L32.79,78.2Zm0,28.39v21.87l21.8,18.65,21.8-18.65V87.86L32.79,106.58Z" transform="translate(-0.32 -0.3)" style="fill:#302d28"/></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('element-arrows', element_arrows);
+
+// Element-jeirocolor
+class element_jeirocolor extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg data-name="Capa 1" viewBox="0 0 185 44.29"><title>Sin título-5</title><path d="M67.45,16.71V10.63c0-1.29-.83-1.94-2.49-1.94v10Q67.45,18.66,67.45,16.71Z" transform="translate(0 -0.19)" style="fill:#302d28"/><path d="M88.52,34.9V9.8c0-.74-.43-1.11-1.31-1.11s-1.38.37-1.38,1.11V34.9q0,1.11,1.38,1.11C88.09,36,88.52,35.64,88.52,34.9Z" transform="translate(0 -0.19)" style="fill:#302d28"/><path d="M0,44.48H33.33l1.08-.11V41.18l-1.18,0q-9.25,0-9.25-7V25.37H31.4v8.74c0,.91.49,1.36,1.47,1.36s1.46-.45,1.46-1.36V25.58a2.3,2.3,0,0,0-.73-2,4.93,4.93,0,0,0-2.74-.53V18.9c2.32,0,3.47-.72,3.47-2.16V10.21c0-.74-.49-1.1-1.46-1.1s-1.52.36-1.52,1.1V17H24.18V10.16q0-6.52,9-6.53A12.3,12.3,0,0,1,39.53,5.2a5.32,5.32,0,0,1,2.69,5v5.06A5.82,5.82,0,0,1,38,21.16c2.88.84,4.32,3.11,4.32,6.83v5.48q0,7.49-8.66,7.67l-1.19,0,.21,3.19.88.11H87.08l1.61-.11.21-3.19-1.69,0a12.35,12.35,0,0,1-6.87-1.72,5.55,5.55,0,0,1-2.61-4.91V10.8q0-7.17,9.54-7.17,9.35,0,9.35,7.12V34.47A5.58,5.58,0,0,1,94,39.4a11.78,11.78,0,0,1-6.43,1.75l-1.42,0,.64,3.19.47.11h53.23l.79-.11.64-4-1.71-.12h-8.65a1.71,1.71,0,0,1-1.65-1.31c-4.51-18.9.19-27.24,2.32-29.87a1.68,1.68,0,0,1,2-.46l22.29,10.68,20,9.57A6,6,0,0,1,174,40.21H140.46l-1.54.12.42,4,1.3.11H185V.19H112l-2,.12.43,4.26,1.45.06a5,5,0,1,1-.16,0l1.69-.06L113.16.31,111.8.19H62.26l.25,3.74.64,0h3.71a11.12,11.12,0,0,1,6,1.56,5.41,5.41,0,0,1,2.53,5v4.42q0,4.29-5,5.81,5,1.19,5,6.09l-.13,4c0,5.9.5,9.24,1.52,10h-8.1c-.87-1-1.31-4-1.31-8.9v0l.05-2.21c0-3.06.08-4.63.08-4.7,0-1.25-.84-1.87-2.52-1.87V40.81H56.87V4H63l.83,0V.31L62.93.19H51l.42,3.74.47,0H55V40.81h-8.1v-27H43.79V8.44a3.69,3.69,0,0,0,3-1.52A4.76,4.76,0,0,0,48,4h3.85l.89,0L52.5.31,51.74.19H17.34l-.17,3.74.89,0h4.45V34.52q0,6.63-9.17,6.63a10.68,10.68,0,0,1-5.8-1.59A4.81,4.81,0,0,1,5,35.37V26h7.15v9.1c0,.6.37.9,1.13.9s1.13-.3,1.13-.9V4h3.49l1.18,0,1.06-2.34L17.91.19H0Z" transform="translate(0 -0.19)" style="fill:#302d28"/></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('element-jeirocolor', element_jeirocolor);
+
+// icon-play
+class icon_play extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg viewBox="0 0 321 322"><g id="Capa_8" data-name="Capa 8"><path d="M113.49,108.68V214.4a15.17,15.17,0,0,0,22.75,13.12L229,174a15.17,15.17,0,0,0,0-26.77L136.24,95.48a15.16,15.16,0,0,0-22.75,13.2Z" style="fill:#302d28"/><path d="M320.84,160.78A160.6,160.6,0,1,1,160.24.19,160.6,160.6,0,0,1,320.84,160.78Zm-160.6-137a137,137,0,1,0,137,137.13v-.09A137,137,0,0,0,160.24,23.74Z" style="fill:#302d28"/></g></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('icon-play', icon_play);
+
+// icon-volume
+class icon_volume extends BaseElement {
+  render() {
+      return html`
+        <span class="my_icon" style="height: ${this.item_size};">
+          <svg viewBox="0 0 322 321"><path d="M322,160.81A160.6,160.6,0,1,1,161.41.22,160.59,160.59,0,0,1,322,160.81Zm-160.59-137a137,137,0,1,0,137,137.13v-.09A137,137,0,0,0,161.41,23.77Z" style="fill:#302d28"/><path d="M188.59,210.8a9,9,0,0,0,12.24-1.15,76.39,76.39,0,0,0,0-101.51A9,9,0,0,0,188.59,107h0a9.06,9.06,0,0,0-1.24,13.23,58.3,58.3,0,0,1,0,77.36,9.06,9.06,0,0,0,1.24,13.23Z" style="fill:#302d28"/><path d="M112.2,127.72l48.2-35s4.78-3.47,8.63,0,8.34,10,8.34,20.44v94.71a16,16,0,0,1-5.34,14c-6.85,6.38-8.82,5.53-14.63,1.88s-46.23-30.39-46.23-30.39h-17s-18.29-.46-18.29-17.81V146.38s-.84-18.29,20-18.29Z" style="fill:#302d28"/><path d="M208.11,92.06a8.81,8.81,0,0,0-1.34,12.73A83,83,0,0,1,206.72,213a8.8,8.8,0,0,0,1.35,12.73l1,.8a8.83,8.83,0,0,0,12.06-1.28,101.94,101.94,0,0,0,0-132.69,8.81,8.81,0,0,0-12-1.26Z" style="fill:#302d28"/></svg>
+        </span>
+      `;
+    }
+}
+customElements.define('icon-volume', icon_volume);

@@ -6,17 +6,25 @@
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
     <link rel="stylesheet" href="static/css/reset.css">
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="stylesheet" href="static/css/styles-index/molecules.css">
-    <link rel="stylesheet" href="static/css/styles-index/atoms.css">
-    <link rel="stylesheet" href="static/css/styles-index/organisms.css">
-    <link rel="stylesheet" href="static/css/styles-index/templates.css">
+    <!-- DESARROLLO -->
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/atoms.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/molecules.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/organisms.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/styles-index/templates.css"> -->
+    
+    <!-- PRODUCCIÓN -->
+    <script src="dist/styles_atoms.js"></script>
+    <script src="dist/styles_molecules.js"></script>
+    <script src="dist/styles_organisms.js"></script>
+    <script src="dist/styles_templates.js"></script>
 </head>
 
 <body id="id_body">
 
-    <elon-musk item_label="HOLA LOL" class="molecule_contModuleY"></elon-musk>
+    <elon-musk item_label="JEIRO" class="molecule_contModuleY"></elon-musk>
     <div class="template_contBody">
+        <!-- NAVBAR -->
         <div id="id_navbar" class="molecule_navBar">
             <section>
                 <div class="mylogo">
@@ -37,11 +45,21 @@
                 </div>
             </section>
         </div>
+        <!-- ALL SCREEN -->
         <div class="organism_contPersonaje">
+            <!-- FIRST BODY -->
             <aside>
+                <!-- RIGHT -->
                 <section>
-                    a
+                    <span class="right">
+                        <div class="etementRig">
+                            <element-arrows item_size="100%"></element-arrows>
+                        </div>
+                        <div class="color"></div>
+                    </span>
+                    <span class="light"></span>
                 </section>
+                <!-- CENTER BACK -->
                 <nav>
                     <div class="molecule_personaje">
                         <div class="yo">
@@ -69,30 +87,56 @@
                             </div>
                         </div>
                     </div>
+                    <!-- FOOT BACK -->
+                    <div class="molecule_foot">
+                        <div class="contFoot">
+                            <div class="contPlay">
+                                <span>
+                                    <icon-play item_size="100%"></icon-play>
+                                </span>
+                                <aside>
+                                    <span>
+                                        <div class="circle"></div>
+                                    </span>
+                                </aside>
+                                <span>
+                                    <icon-volume item_size="100%"></icon-volume>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="light"></span>
+                    </div>
                 </nav>
-                <section>
-                    <element-lines item_size="300px"></element-lines>
+                <!-- LEFHT -->
+                <section class="linesLine">
+                    <element-lines style="margin: auto 0px 0px 0px;" item_size="100%"></element-lines>
                 </section>
             </aside>
+            <!-- BOOTON -->
             <article>
-                a
+                <section>
+                    <span class="botton">
+                        <div class="etementRig">
+                            <div class="color"></div>
+                            <element-jeirocolor item_size="100%"></element-jeirocolor>
+                            <div class="color"></div>
+                        </div>
+                    </span>
+                </section>
             </article>
         </div>
     </div>
-    <!-- <div style="background: blue; height: 30px; width: 100vw; z-index: 5; position: absolute; top: 0px; left: 0px;"></div> -->
-
 </body>
 
 <!-- DESARROLLO -->
-<script type="module" src="static/js/lit-element/element-index/modules.js"></script>
+<!-- <script type="module" src="static/js/lit-element/element-index/modules.js"></script>
 <script type="module" src="static/js/lit-element/element-index/components_index.js"></script>
-<script type="module" src="static/js/responsive/responsive-index/responsive_index.js"></script>
+<script type="module" src="static/js/responsive/responsive-index/responsive_index.js"></script> -->
 
 <!-- PRODUCCIÓN -->
-<!-- <script type="module" src="dist/modules.js"></script>
+<script type="module" src="dist/modules.js"></script>
 <script type="module" src="dist/components_index.js"></script>
-<script type="module" src="dist/responsive_index.js"></script> -->
-
+<script type="module" src="dist/responsive_index.js"></script>
 
 <script>
     // window.addEventListener('scroll', function() {
